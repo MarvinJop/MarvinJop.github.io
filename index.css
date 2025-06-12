@@ -1,0 +1,111 @@
+body {
+  height: 2800px;
+  background-color: darkslategrey;
+}
+
+
+h1 {
+  text-align: center;
+  color: moccasin;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.09);
+  position: sticky;
+  top: 0;
+}
+
+nav ul li{
+ display: inline-block;
+ padding: 15px;
+ color: white;
+}
+
+
+a,
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+table {
+  background-color: papayawhip;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table tr td:first-child {
+  font-family: "Courier New";
+  background-color: moccasin;
+  color: RoyalBlue;
+}
+
+.table-subtitle {
+  padding: 4px 8px;
+  font-style: italic;
+  text-align:center;
+  background-color: mediumturquoise;
+  font-weight: bold;
+}
+
+.text-highlight {
+  background-color: yellow;
+}
+
+h2 {
+padding:10px 0;
+  color: white;
+  position: sticky;
+  top:0;
+  text-align: center;
+}
+#htmlTags h2 {
+  background-color: plum;
+}
+
+#cssSelectors h2 {
+  background-color: mediumseagreen;
+}
+
+#cssProperties h2 {
+  background-color: mediumturquoise;
+}
+
+#cssColorExample {
+  color: blue;
+}
+
+#cssBackgroudColor {
+  background-color: orange;
+}
+
+h3#cssBorderExample {
+  border: 2px solid green;
+}
+
+#cssFontFamilyExample {
+  font-family: papyrus;
+}
+
+#cssFontSizeExample {
+  font-size: 24px;
+}
+
+#cssBoldFontExample {
+  font-weight: 500;
+}
+
+#cssBolderFontExample {
+  font-weight: 600;
+}
+
+#css800FontExample {
+  font-weight: 800;
+}
