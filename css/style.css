@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
+
 nav {
     height: 40px;
     color: #fff;
     padding: 10px;
-    color: #212121;
-    background-color: #fff;
+    color: #d4a373;
+    background-color: #000000;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 ul li {
@@ -25,7 +27,10 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #212121;
+    color: #D4A373;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 /*Colors page rules*/
@@ -46,19 +51,19 @@ a {
 }
 
 .bg-green {
-    background-color: #9fce4e;
+    background-color: #CCD5AE;
 }
 
 .bg-dark {
-    background-color: #212121;
+    background-color: #D4A373;
 }
 
 .bg-midnight {
-    background-color: #444;
+    background-color: #FAEDCD;
 }
 
 .bg-light {
-    background-color: #efefef;
+    background-color: #FEFAE0;
 }
 
 
@@ -77,7 +82,7 @@ a {
 }
 
 .txt-green {
-    color: #9fce4e;
+    color: #D4A373;
     font-weight: bold;
 }
 
@@ -150,32 +155,32 @@ button {
 }
 
 .btn-clear:hover {
-    background-color: #9fce4e;
+    background-color: #D4A373;
     border: 2px solid #fff;
     color: #fff;
 }
 
 .btn-green {
     color: #fff;
-    background-color: #9fce4e;
-    border: 2px solid #9fce4e;
+    background-color: #D4A373;
+    border: 2px solid #D4A373;
 }
 
 .btn-green:hover {
-    background-color: #212121;
-    border: 2px solid #212121;
+    background-color: #CCD5AE;
+    border: 2px solid #CCD5AE;
     color: #fff;
 }
 
 .btn-dark {
-    background-color: #212121;
+    background-color: #D4A373;
     color: #fff;
-    border: 2px solid #212121;
+    border: 2px solid #D4A373;
 }
 
 .btn-dark:hover {
-    background-color: #444;
-    border: 2px solid #444;
+    background-color: #FAEDCD;
+    border: 2px solid #FAEDCD;
 }
 
 /*table page rules*/
@@ -259,7 +264,7 @@ td:nth-child(2) {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #9fce4e;
+    background-color: #D4A373;
     margin: 0 auto;
 }
 
@@ -326,7 +331,7 @@ td:nth-child(2) {
 .card-footer button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #9fce4e;
+    background-color: #D4A373;
     color: #fff;
     border: none;
     border-radius: 4px;
